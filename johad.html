@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klivio - Formations en ligne</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+                <img src="resources/ressources/logo.png" alt="logo" class="nav_logo">
+                <p class="p">Les formations</p>
+            <div class="nav_recherche">
+                <form action="/search" method="get">
+                </form>
+                <input type="text" name="q" placeholder="Rechercher..." aria-label="Rechercher">
+           </div>
+           <div class="nav_button">
+                <button class="nav_button1" type="button">Connexion</button>
+                <button class="nav_button2" type="button">Inscription</button>
+           </div>
+    </nav>
+    </header>
+
+<section class="banierre">
+    <div class="contenant-hero">
+        <h1 class="titre-hero">
+            KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION
+        </h1>
+        
+        <p class="sous-titre-hero">
+            LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL
+        </p>
+        
+        <button class="btn-hero">
+            En savoir plus
+        </button>
+    </div>
+</section>
+<section class="section-populaires">
+    <div class="container">
+        <h2 class="titre-section">Les formations populaires</h2>
+        
+        <div class="grille-formations">
+
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="carre_1" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Parler en public</h3>
+                    <p class="carte-auteur">Sonia Lefevre | Coach en prise de parole</p>
+                    
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    
+                    <p class="carte-desc">Gagnez en aisance et captez votre auditoire.</p>
+                </div>
+            </article>
+
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="carre_1" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Gérer le stress</h3>
+                    <p class="carte-auteur">Lucie Garnier | Formatrice</p>
+                    
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    
+                    <p class="carte-desc">Apprenez à rester serein face aux défis.</p>
+                </div>
+            </article>
+                        
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="carre_1" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Travailler en équipe</h3>
+                    <p class="carte-auteur">David Moreau | Expert</p>
+                    
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    
+                    <p class="carte-desc">collaborez efficacement, même à distance</p>
+                </div>
+            </article>
+            
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="carre_1" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Gérer son temps</h3>
+                    <p class="carte-auteur">Claire Dumas | Coach organisation</p>
+                    
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    
+                    <p class="carte-desc">Optimisez vos journées et gagner en efficacité.</p>
+                </div>
+
+        </div>
+            
+        <div class="bouton-container">
+            <button class="btn-sombre">Voir plus de formations</button>
+        </div>
+        
+    </div>
+</section>
+<section class="section-recentes">
+    <div class="container">
+        <h2 class="titre-section titre-blanc">Les formations récentes</h2>
+        
+        <div class="grille-formations">
+
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="communication" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Mieux communiquer</h3>
+                    <p class="carte-auteur">Julien Hamel | Coach en comm.</p>
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="carte-desc">Améliorez vos échanges et votre impact relationnel.</p>
+                </div>
+            </article>
+
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="emotions" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Maîtriser ses émotions</h3>
+                    <p class="carte-auteur">Amel Benali | Psy du travail</p>
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="carte-desc">Développez calme et intelligence émotionnelle.</p>
+                </div>
+            </article>
+            
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="problemes" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Résoudre les problèmes</h3>
+                    <p class="carte-auteur">Thomas Rivière | Expert</p>
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="carte-desc">Analysez, décidez et trouvez des solutions durables.</p>
+                </div>
+            </article>
+            
+            <article class="carte">
+                <div class="carte-image">
+                    <img src="resources/ressources/photo.png" alt="leadership" class="carte-image">
+                    <span class="prix-tag">15,99 € <span class="prix-barre">90 €</span></span>
+                </div>
+                <div class="carte-contenu">
+                    <h3 class="carte-titre">Leadership positif</h3>
+                    <p class="carte-auteur">Marc Nguyen | Consultant</p>
+                    <div class="carte-avis">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="carte-desc">Inspirez, motivez et fédérez votre équipe.</p>
+                </div>
+            </article>
+
+        </div>
+            
+        <div class="bouton-container">
+            <button class="btn-blanc">Voir plus de formations</button>
+        </div>
+        
+    </div>
+</section>
+<section class="section-avis">
+    <div class="container">
+        <h2 class="titre-section titre-centre">AVIS CLIENTS</h2>
+        
+        <div class="conteneur-temoignages">
+            
+            <div class="avis-card">
+                <img src="resources/ressources/juliette.png" alt="Juliette" class="avis-photo">
+                
+                <h3 class="avis-nom">Juliette</h3>
+                
+                <div class="avis-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                
+                <p class="avis-texte">
+                    "J'ai trouvé le parcours très bien structuré : vidéos courtes, quiz pour tester ses connaissances. 
+                    L'interface est claire et la progression est motivante — parfait pour se former en autonomie."
+                </p>
+            </div>
+
+            <div class="avis-card">
+                <img src="resources/ressources/camille.png" alt="Camille" class="avis-photo">
+                
+                <h3 class="avis-nom">Camille</h3>
+                
+                <div class="avis-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                
+                <p class="avis-texte">
+                    "Bien équilibré entre théorie et pratique. Les chapitres sont détaillés et le support est top. 
+                    Les corrections automatiques sont vraiment une aide idéale pour s'entraîner et progresser rapidement."
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="section-avantages">
+    <div class="container">
+        <div class="conteneur-split">
+            
+            <div class="colonne-texte">
+                <h2 class="titre-section align-gauche">LES AVANTAGES KLIVIO</h2>
+                
+                <ul class="liste-avantages">
+                    <li>
+                        <span class="icone-verte"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                        <span class="texte-avantage">Suivi de sa progression</span>
+                    </li>
+                    <li>
+                        <span class="icone-verte"><i class="fa-solid fa-pen-ruler"></i></span>
+                        <span class="texte-avantage">Exercices et QCM pour la mise en pratique</span>
+                    </li>
+                    <li>
+                        <span class="icone-verte"><i class="fa-solid fa-download"></i></span>
+                        <span class="texte-avantage">Possibilité de télécharger/imprimer les formations</span>
+                    </li>
+                    <li>
+                        <span class="icone-verte"><i class="fa-solid fa-medal"></i></span>
+                        <span class="texte-avantage">Contenu qualitatif et vérifié</span>
+                    </li>
+                    <li>
+                        <span class="icone-verte"><i class="fa-solid fa-clock"></i></span>
+                        <span class="texte-avantage">Suivi en autonomie, 24h/24, 7j/7</span>
+                    </li>
+                    <li>
+                        <span class="icone-verte"><i class="fa-regular fa-comments"></i></span>
+                        <span class="texte-avantage">Espaces d'échanges dédiés pour poser ses questions</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="colonne-image">
+                <img src="resources/ressources/avantages.png" alt="Etudiante sur ordinateur" class="img-avantages">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section-instructeur">
+    <div class="container">
+        <div class="conteneur-split">
+            
+            <div class="colonne-image">
+                <img src="resources/ressources/become-author.png" alt="Bureau instructeur" class="img-instructeur">
+            </div>
+
+            <div class="colonne-texte padding-left">
+                <h2 class="titre-section titre-sombre">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h2>
+                
+                <ul class="liste-avantages">
+                    <li>
+                        <span class="icone-sombre"><i class="fa-solid fa-user-tie"></i></span>
+                        <span class="texte-sombre">Commission unique, au pourcentage sur les ventes</span>
+                    </li>
+                    <li>
+                        <span class="icone-sombre"><i class="fa-regular fa-heart"></i></span>
+                        <span class="texte-sombre">Mise en avant sur la plateforme</span>
+                    </li>
+                    <li>
+                        <span class="icone-sombre"><i class="fa-solid fa-pen"></i></span>
+                        <span class="texte-sombre">Contrôle total sur le cours : contenu, prix</span>
+                    </li>
+                    <li>
+                        <span class="icone-sombre"><i class="fa-solid fa-gear"></i></span>
+                        <span class="texte-sombre">Fonctionnalités avancées : espace commentaires, téléchargement PDF, codes promos...</span>
+                    </li>
+                    <li>
+                        <span class="icone-sombre"><i class="fa-regular fa-file-lines"></i></span>
+                        <span class="texte-sombre">Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d'auteur</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section-split">
+    <div class="split-texte">
+        <h2 class="titre-split">À PROPOS DE KLIVIO</h2>
+        <p>
+            Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. 
+            Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu.
+        </p>
+        <br>
+        <p>
+            Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité nécessaire. 
+            La transparence est au cœur de notre démarche.
+        </p>
+    </div>
+    <div class="split-logo">
+        <img src="resources/ressources/logo.png" alt="Klivio Logo" class="grand-logo">
+    </div>
+</section>
+
+<section class="section-contact">
+    <div class="container-contact">
+        <h2 class="titre-contact">NOUS CONTACTER</h2>
+        
+        <form class="form-sombre">
+            <div class="ligne-champs">
+                <input type="text" placeholder="Nom" class="champ-noir">
+                <input type="email" placeholder="Email" class="champ-noir">
+            </div>
+            
+            <textarea placeholder="Votre message" class="zone-noir"></textarea>
+            
+            <button type="button" class="btn-vert-contact">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<div class="barre-separation"></div>
+
+<footer class="footer-final">
+    <div class="container footer-grid">
+        
+        <div class="col-logo">
+            <img src="resources/ressources/logo.png" alt="Klivio" class="logo-footer">
+        </div>
+
+        <div class="col-liens">
+            <h4>Mentions légales</h4>
+            <ul>
+                <li><a href="#">CGU</a></li>
+                <li><a href="#">CGV</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="col-coords">
+            <h4>Coordonnées</h4>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> 1 place république,<br>75003 Paris</li>
+                <li><i class="fa-solid fa-phone"></i> 01.02.03.04.05</li>
+                <li><i class="fa-solid fa-envelope"></i> contact@klivio.fr</li>
+            </ul>
+        </div>
+
+        <div class="col-boutons">
+            <button class="btn-f-connexion">Connexion</button>
+            <button class="btn-f-inscription">Inscription</button>
+        </div>
+
+    </div>
+
+    <div class="footer-ligne-fine"></div>
+
+    <div class="container footer-bas">
+        <p>© Klivio - 2025</p>
+        <div class="socials">
+            <span>Suivez - nous</span>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+        
+         
+</nav>
+</body>
+</html>
